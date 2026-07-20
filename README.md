@@ -43,7 +43,8 @@ wechat/          微信表情开放平台所需横幅、封面和聊天图标
 
 ## 致谢
 
-视觉方向参考了开源桌宠项目 [clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)，并沿用了它对 [clawd-tank](https://github.com/marciogranzotto/clawd-tank) 的原始致谢线索。
+- 表情包的 SVG + CSS 制作流程与动画结构基于开源 Skill：[xixicc186/clawd-emotes-skill](https://github.com/xixicc186/clawd-emotes-skill)。感谢作者提供清晰、可复用的 Clawd 表情制作工作流。
+- 美术视觉方向参考了开源桌宠项目 [clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)，并沿用了它对 [clawd-tank](https://github.com/marciogranzotto/clawd-tank) 的原始致谢线索。
 
 ## 喜欢的话
 
