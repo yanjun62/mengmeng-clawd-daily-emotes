@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500" shape-rendering="crispEdges">
+    <defs><style>
+      .jy-body{transform-origin:7.5px 13px;animation:jy-jump 1.25s infinite cubic-bezier(.3,.8,.3,1)}
+      .jy-shad{transform-origin:7.5px 15.5px;animation:jy-shadow 1.25s infinite}
+      .jy-larm{transform-origin:2px 10px;animation:jy-left 1.25s infinite ease-in-out}
+      .jy-rarm{transform-origin:13px 10px;animation:jy-right 1.25s infinite ease-in-out}
+      .jy-hat{transform-origin:7.5px 6px;animation:jy-band 1.25s infinite}
+      @keyframes jy-jump{0%,100%{transform:translateY(0) scaleY(1)}48%{transform:translateY(-2px) scaleY(1.04)}64%{transform:translateY(-1.4px)}}
+      @keyframes jy-shadow{0%,100%{transform:scaleX(1);opacity:.5}50%{transform:scaleX(.76);opacity:.35}}
+      @keyframes jy-left{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(-18deg)}}
+      @keyframes jy-right{0%,100%{transform:rotate(8deg)}50%{transform:rotate(18deg)}}
+      @keyframes jy-band{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+    </style></defs>
+    <rect class="jy-shad" x="3" y="15" width="9" height="1" fill="#000" opacity=".5"></rect>
+    <g class="jy-body">
+      <g fill="#DE886D"><rect x="3" y="13" width="1" height="2"></rect><rect x="5" y="13" width="1" height="2"></rect><rect x="9" y="13" width="1" height="2"></rect><rect x="11" y="13" width="1" height="2"></rect></g>
+      <rect x="2" y="6" width="11" height="7" fill="#DE886D"></rect>
+      <g class="jy-larm"><rect x="0" y="9" width="2" height="2" fill="#DE886D"></rect><rect x="0" y="3.5" width="2" height="5.5" fill="#2B7FFF" opacity=".28"></rect><rect x=".5" y="4" width="1" height="5" fill="#6FE6FF"></rect></g>
+      <g class="jy-rarm"><rect x="13" y="9" width="2" height="2" fill="#DE886D"></rect><rect x="13" y="3.5" width="2" height="5.5" fill="#FF334F" opacity=".28"></rect><rect x="13.5" y="4" width="1" height="5" fill="#FF667A"></rect></g>
+      <g fill="#000"><rect x="4" y="8" width="1" height="2"></rect><rect x="10" y="8" width="1" height="2"></rect></g>
+      <g class="jy-hat"><rect x="2" y="4.8" width="11" height="1.2" fill="#e94f4f"></rect><rect x="12.5" y="5.4" width="4.5" height=".7" fill="#e94f4f" transform="rotate(12,12.5,5.4)"></rect></g>
+    </g>
+  </svg>

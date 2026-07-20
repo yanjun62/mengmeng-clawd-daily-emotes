@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" shape-rendering="crispEdges">
+  <!-- Transparent background. Head-only, front-facing, no border or decoration. -->
+  <path d="M6 4H44V7H48V43H44V46H6V43H2V7H6Z" fill="#DE886D"/>
+  <rect x="11" y="18" width="5" height="10" fill="#000"/>
+  <rect x="34" y="18" width="5" height="10" fill="#000"/>
+</svg>

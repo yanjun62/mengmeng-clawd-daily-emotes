@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500" shape-rendering="crispEdges">
+    <defs><style>
+      .yj-body{transform-origin:7.5px 13px;animation:yj-yell 1.1s infinite ease-in-out}
+      .yj-shad{transform-origin:7.5px 15.5px;animation:yj-shadow 1.1s infinite ease-in-out}
+      .yj-ray{animation:yj-ray 1.1s infinite ease-out;transform-origin:7.5px 8px}
+      @keyframes yj-yell{0%,100%{transform:translateY(0) scaleY(1)}30%{transform:translateY(-1.1px) scaleY(1.06)}44%{transform:translateX(-.45px)}58%{transform:translateX(.45px)}72%{transform:translateX(-.3px)}}
+      @keyframes yj-shadow{0%,100%{transform:scaleX(1)}30%{transform:scaleX(.88)}}
+      @keyframes yj-ray{0%,18%,100%{opacity:0;transform:scale(.75)}34%,76%{opacity:1;transform:scale(1)}}
+    </style></defs>
+    <g class="yj-ray" fill="#ffd166"><rect x="-3" y="3" width="4" height="1"></rect><rect x="14" y="3" width="4" height="1"></rect><rect x="-.5" y="-2" width="1" height="4" transform="rotate(-32,0,-.2)"></rect><rect x="14.5" y="-2" width="1" height="4" transform="rotate(32,15,-.2)"></rect><rect x="6.9" y="-5" width="1.2" height="4"></rect></g>
+    <rect class="yj-shad" x="3" y="15" width="9" height="1" fill="#000" opacity=".5"></rect>
+    <g class="yj-body">
+      <g fill="#DE886D"><rect x="3" y="13" width="1" height="2"></rect><rect x="5" y="13" width="1" height="2"></rect><rect x="9" y="13" width="1" height="2"></rect><rect x="11" y="13" width="1" height="2"></rect></g>
+      <rect x="2" y="6" width="11" height="7" fill="#DE886D"></rect>
+      <rect x="0" y="8" width="2" height="2" fill="#DE886D" transform="rotate(-25,1,9)"></rect><rect x="13" y="8" width="2" height="2" fill="#DE886D" transform="rotate(25,14,9)"></rect>
+      <g fill="#000"><rect x="3.8" y="8" width="1.8" height="1"></rect><rect x="9.4" y="8" width="1.8" height="1"></rect></g>
+      <rect x="6.5" y="10.5" width="2" height="2" fill="#000"></rect>
+    </g>
+  </svg>

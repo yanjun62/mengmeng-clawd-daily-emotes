@@ -1,0 +1,5 @@
+*.gif binary
+*.png binary
+*.svg text eol=lf
+*.html text eol=lf
+*.md text eol=lf

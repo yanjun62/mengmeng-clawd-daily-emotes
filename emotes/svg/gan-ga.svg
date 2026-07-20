@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500" shape-rendering="crispEdges">
+    <defs><style>
+      .gg-body{transform-origin:7.5px 13px;animation:gg-wiggle 2.3s infinite ease-in-out}
+      .gg-shad{transform-origin:7.5px 15.5px;animation:gg-shadow 2.3s infinite}
+      .gg-sweat{animation:gg-drop 2.3s infinite ease-in}
+      @keyframes gg-wiggle{0%,35%,100%{transform:rotate(0)}45%{transform:rotate(-3deg)}55%{transform:rotate(3deg)}65%{transform:rotate(-2deg)}75%{transform:rotate(1deg)}}
+      @keyframes gg-shadow{0%,100%{transform:scaleX(1)}55%{transform:scaleX(.96)}}
+      @keyframes gg-drop{0%,28%,100%{opacity:0;transform:translateY(-2px)}38%{opacity:1}74%{opacity:1;transform:translateY(5px)}82%{opacity:0}}
+    </style></defs>
+    <rect class="gg-shad" x="3" y="15" width="9" height="1" fill="#000" opacity=".5"></rect>
+    <g class="gg-body">
+      <g fill="#DE886D"><rect x="3" y="13" width="1" height="2"></rect><rect x="5" y="13" width="1" height="2"></rect><rect x="9" y="13" width="1" height="2"></rect><rect x="11" y="13" width="1" height="2"></rect></g>
+      <rect x="2" y="6" width="11" height="7" fill="#DE886D"></rect>
+      <rect x="0" y="10" width="2" height="2" fill="#DE886D"></rect><rect x="13" y="10" width="2" height="2" fill="#DE886D"></rect>
+      <g fill="#000"><rect x="4" y="8.4" width="2" height="1"></rect><rect x="10" y="8.4" width="2" height="1"></rect></g>
+      <g fill="#ef6d79" opacity=".68"><rect x="3" y="10.3" width="2.2" height="1"></rect><rect x="9.8" y="10.3" width="2.2" height="1"></rect></g>
+      <path class="gg-sweat" d="M14.5 5.2 q2 2.4 0 4.2 q-2-1.8 0-4.2" fill="#6ed4ff"></path>
+    </g>
+  </svg>

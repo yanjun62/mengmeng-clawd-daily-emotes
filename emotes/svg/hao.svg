@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500" shape-rendering="crispEdges">
+    <defs><style>
+      .ok-body{transform-origin:7.5px 13px;animation:ok-bob 2s infinite ease-in-out}
+      .ok-shad{transform-origin:7.5px 15.5px;animation:ok-shadow 2s infinite ease-in-out}
+      .ok-rarm{transform-origin:13px 10px;animation:ok-up 2s infinite ease-in-out}
+      .ok-check{transform-origin:20px 2px;animation:ok-pop 2s infinite}
+      @keyframes ok-bob{0%,100%{transform:translateY(0)}45%,65%{transform:translateY(-.6px)}}
+      @keyframes ok-shadow{0%,100%{transform:scaleX(1)}55%{transform:scaleX(.94)}}
+      @keyframes ok-up{0%,20%,100%{transform:rotate(0)}42%,72%{transform:rotate(-70deg)}}
+      @keyframes ok-pop{0%,28%,88%,100%{opacity:0;transform:scale(.25)}45%,74%{opacity:1;transform:scale(1)}}
+    </style></defs>
+    <path class="ok-check" d="M17 2 l2.2 2.2 l4.5-5" fill="none" stroke="#67e69b" stroke-width="1.6" stroke-linecap="square"></path>
+    <rect class="ok-shad" x="3" y="15" width="9" height="1" fill="#000" opacity=".5"></rect>
+    <g class="ok-body">
+      <g fill="#DE886D"><rect x="3" y="13" width="1" height="2"></rect><rect x="5" y="13" width="1" height="2"></rect><rect x="9" y="13" width="1" height="2"></rect><rect x="11" y="13" width="1" height="2"></rect></g>
+      <rect x="2" y="6" width="11" height="7" fill="#DE886D"></rect>
+      <rect x="0" y="9" width="2" height="2" fill="#DE886D"></rect>
+      <g class="ok-rarm" fill="#DE886D"><rect x="13" y="9" width="2" height="2"></rect></g>
+      <g fill="#000"><rect x="4" y="8" width="1" height="2"></rect><rect x="10" y="8" width="1" height="2"></rect></g>
+    </g>
+  </svg>

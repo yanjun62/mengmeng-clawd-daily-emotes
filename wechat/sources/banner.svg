@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="400" viewBox="0 0 750 400" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#45C8D6"/>
+      <stop offset="1" stop-color="#6669D8"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD96A"/>
+      <stop offset="1" stop-color="#F6A85B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Lively, non-white backdrop -->
+  <rect width="750" height="400" fill="url(#bg)"/>
+  <circle cx="72" cy="64" r="92" fill="#7FE4D5" opacity=".72"/>
+  <circle cx="686" cy="52" r="112" fill="#A780EA" opacity=".55"/>
+  <circle cx="370" cy="-24" r="96" fill="#F6D872" opacity=".35"/>
+  <path d="M0 258 Q120 218 238 260 T475 258 T750 247 V400 H0Z" fill="#4C4AA8" opacity=".48"/>
+
+  <!-- Sun and cheerful confetti shapes; no text -->
+  <circle cx="79" cy="75" r="28" fill="#FFE36E"/>
+  <g fill="#FFF3A6">
+    <rect x="76" y="25" width="6" height="16"/>
+    <rect x="76" y="109" width="6" height="16"/>
+    <rect x="29" y="72" width="16" height="6"/>
+    <rect x="113" y="72" width="16" height="6"/>
+  </g>
+  <g fill="#FFE36E">
+    <rect x="260" y="45" width="8" height="20" transform="rotate(22 264 55)"/>
+    <rect x="491" y="40" width="8" height="20" transform="rotate(-24 495 50)"/>
+  </g>
+  <g fill="#FF7A91">
+    <rect x="211" y="84" width="12" height="12" transform="rotate(15 217 90)"/>
+    <rect x="548" y="78" width="12" height="12" transform="rotate(-15 554 84)"/>
+  </g>
+
+  <!-- Three colored story windows: wake, work, cheer -->
+  <rect x="30" y="118" width="205" height="214" rx="34" fill="#FFE89A"/>
+  <rect x="252" y="88" width="246" height="244" rx="42" fill="#B7F0E6"/>
+  <rect x="515" y="118" width="205" height="214" rx="34" fill="#D6C1FF"/>
+
+  <!-- LEFT: waking Clawd, nightcap and alarm clock -->
+  <g transform="translate(59 148) scale(7)">
+    <rect x="3" y="15" width="9" height="1" fill="#704F68" opacity=".28"/>
+    <g fill="#DE886D">
+      <rect x="3" y="13" width="1" height="2"/><rect x="5" y="13" width="1" height="2"/>
+      <rect x="9" y="13" width="1" height="2"/><rect x="11" y="13" width="1" height="2"/>
+      <rect x="2" y="6" width="11" height="7"/>
+      <rect x="0" y="9" width="2" height="2"/><rect x="13" y="9" width="2" height="2"/>
+    </g>
+    <g fill="#000"><rect x="4" y="8" width="1" height="2"/><rect x="10" y="8" width="1" height="2"/></g>
+    <g>
+      <polygon points="2,5.5 5,-1 13,5.5" fill="#5A61C9"/>
+      <rect x="2" y="5" width="11" height="1" fill="#FFF0C7"/>
+      <rect x="4.4" y="-.8" width="1.8" height="1.8" fill="#FFF0C7"/>
+    </g>
+  </g>
+  <g transform="translate(166 235)">
+    <rect x="0" y="18" width="40" height="42" rx="12" fill="#F47F72"/>
+    <circle cx="20" cy="39" r="13" fill="#FFF4D6"/>
+    <rect x="18" y="26" width="4" height="13" fill="#392F48"/>
+    <rect x="20" y="37" width="8" height="4" fill="#392F48"/>
+    <rect x="4" y="8" width="10" height="14" transform="rotate(-28 9 15)" fill="#F47F72"/>
+    <rect x="26" y="8" width="10" height="14" transform="rotate(28 31 15)" fill="#F47F72"/>
+  </g>
+
+  <!-- CENTER: Clawd working at a laptop with coffee and plant -->
+  <g transform="translate(319 122) scale(8)">
+    <rect x="3" y="15" width="9" height="1" fill="#34535A" opacity=".26"/>
+    <g fill="#DE886D">
+      <rect x="3" y="13" width="1" height="2"/><rect x="5" y="13" width="1" height="2"/>
+      <rect x="9" y="13" width="1" height="2"/><rect x="11" y="13" width="1" height="2"/>
+      <rect x="2" y="6" width="11" height="7"/>
+      <rect x="0" y="9" width="2" height="2"/><rect x="13" y="9" width="2" height="2"/>
+    </g>
+    <g fill="#000"><rect x="4" y="8" width="1" height="2"/><rect x="10" y="8" width="1" height="2"/></g>
+    <rect x="2.5" y="11" width="10" height="6" fill="#31385F"/>
+    <rect x="3.5" y="12" width="8" height="3.5" fill="#62D9D0"/>
+    <path d="M6 13.5 l1.2 1.2 l2.3-2.4" fill="none" stroke="#FFF4B0" stroke-width=".7"/>
+    <rect x="1.5" y="17" width="12" height="1" fill="#202847"/>
+  </g>
+  <rect x="270" y="294" width="210" height="18" rx="9" fill="url(#desk)"/>
+  <rect x="285" y="311" width="16" height="42" fill="#D97A63"/>
+  <rect x="449" y="311" width="16" height="42" fill="#D97A63"/>
+  <g transform="translate(275 250)">
+    <rect x="0" y="12" width="36" height="34" rx="6" fill="#FFF2CF"/>
+    <rect x="30" y="19" width="14" height="18" rx="7" fill="none" stroke="#FFF2CF" stroke-width="7"/>
+    <rect x="7" y="4" width="4" height="12" fill="#FFF2CF" opacity=".75"/>
+    <rect x="18" y="0" width="4" height="14" fill="#FFF2CF" opacity=".55"/>
+  </g>
+  <g transform="translate(442 234)">
+    <rect x="7" y="31" width="38" height="30" rx="5" fill="#F17C75"/>
+    <rect x="25" y="9" width="5" height="28" fill="#437D68"/>
+    <path d="M27 22 C3 17 1 2 22 7 C21 -2 42 -3 32 23Z" fill="#5DBB7A"/>
+  </g>
+
+  <!-- RIGHT: cheering Clawd with two glowsticks and hearts -->
+  <g transform="translate(563 150) scale(7)">
+    <rect x="3" y="15" width="9" height="1" fill="#513D70" opacity=".28"/>
+    <g fill="#DE886D">
+      <rect x="3" y="13" width="1" height="2"/><rect x="5" y="13" width="1" height="2"/>
+      <rect x="9" y="13" width="1" height="2"/><rect x="11" y="13" width="1" height="2"/>
+      <rect x="2" y="6" width="11" height="7"/>
+    </g>
+    <g transform="rotate(-12 2 10)">
+      <rect x="0" y="9" width="2" height="2" fill="#DE886D"/>
+      <rect x=".5" y="2" width="1" height="7" fill="#55DEFF"/>
+      <rect x="0" y="1.5" width="2" height="7.5" fill="#2B7FFF" opacity=".24"/>
+    </g>
+    <g transform="rotate(12 13 10)">
+      <rect x="13" y="9" width="2" height="2" fill="#DE886D"/>
+      <rect x="13.5" y="2" width="1" height="7" fill="#FF647C"/>
+      <rect x="13" y="1.5" width="2" height="7.5" fill="#FF334F" opacity=".24"/>
+    </g>
+    <g fill="#000"><rect x="4" y="8" width="1" height="2"/><rect x="10" y="8" width="1" height="2"/></g>
+    <rect x="2" y="5" width="11" height="1" fill="#E94F4F"/>
+    <rect x="12" y="5.5" width="4" height=".7" fill="#E94F4F" transform="rotate(12 12 5.5)"/>
+  </g>
+  <g fill="#FF6F92">
+    <path d="M663 155 C663 143 681 143 681 155 C681 143 699 143 699 155 C699 170 681 181 681 181 C681 181 663 170 663 155Z"/>
+    <path d="M536 172 C536 165 547 165 547 172 C547 165 558 165 558 172 C558 181 547 188 547 188 C547 188 536 181 536 172Z" opacity=".75"/>
+  </g>
+</svg>

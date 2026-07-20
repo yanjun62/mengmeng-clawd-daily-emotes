@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500" shape-rendering="crispEdges">
+    <defs><style>
+      .lp-body{transform-origin:7.5px 13px;animation:lp-bob 2.4s infinite ease-in-out}
+      .lp-shad{transform-origin:7.5px 15.5px;animation:lp-shadow 2.4s infinite}
+      .lp-heart{transform-origin:15px -3px;animation:lp-heart 1.5s infinite ease-in-out}
+      .lp-float{animation:lp-float 2.4s var(--d,0s) infinite ease-out}
+      @keyframes lp-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-.5px)}}
+      @keyframes lp-shadow{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.95)}}
+      @keyframes lp-heart{0%,100%{transform:scale(1)}35%{transform:scale(1.16)}55%{transform:scale(.96)}75%{transform:scale(1.1)}}
+      @keyframes lp-float{0%{opacity:0;transform:translateY(3px) scale(.5)}25%{opacity:1}100%{opacity:0;transform:translateY(-10px) scale(1)}}
+    </style></defs>
+    <g fill="#ff75a8"><path class="lp-float" style="--d:0s" d="M-1 5 l1.5-1.5 l1.5 1.5 l-1.5 2z"></path><path class="lp-float" style="--d:-1.2s" d="M16 3 l1.5-1.5 l1.5 1.5 l-1.5 2z"></path></g>
+    <g class="lp-heart">
+      <path d="M7 -8H10V-11H14V-8H16V-11H20V-8H23V-2H21V0H19V2H17V4H15V2H13V0H11V-2H7Z" fill="#FF4F8B"></path>
+      <text x="15" y="-2.8" text-anchor="middle" fill="#FFFFFF" font-size="4.1" font-weight="800" font-family="Microsoft YaHei, sans-serif">老婆</text>
+    </g>
+    <rect class="lp-shad" x="3" y="15" width="9" height="1" fill="#000" opacity=".5"></rect>
+    <g class="lp-body">
+      <g fill="#DE886D"><rect x="3" y="13" width="1" height="2"></rect><rect x="5" y="13" width="1" height="2"></rect><rect x="9" y="13" width="1" height="2"></rect><rect x="11" y="13" width="1" height="2"></rect></g>
+      <rect x="2" y="6" width="11" height="7" fill="#DE886D"></rect>
+      <rect x="0" y="10" width="2" height="2" fill="#DE886D" transform="rotate(35,1,11)"></rect><rect x="13" y="10" width="2" height="2" fill="#DE886D" transform="rotate(-35,14,11)"></rect>
+      <g fill="#FFE066"><path d="M4 7H5V8H6V9H5V10H4V9H3V8H4Z"></path><path d="M10 7H11V8H12V9H11V10H10V9H9V8H10Z"></path></g>
+    </g>
+  </svg>
